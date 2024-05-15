@@ -1,0 +1,313 @@
+/*Universal*/
+* {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    position: relative;
+}
+
+* {
+    background-color: rgb(230, 224, 238);
+}
+
+* {
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+/*BODY*/
+body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+html {
+    font-size: 18px;
+}
+
+p,
+h2,
+h1,
+a {
+    color: bisque;
+    background-color: transparent;
+}
+
+/*Header*/
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(94, 34, 172);
+    border: 10px solid rgb(72, 0, 165);
+}
+
+header h1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    border-radius: 30px;
+    background-color: rgb(151, 115, 199);
+}
+
+/*Nav*/
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 8px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(72, 0, 165);
+}
+
+nav p {
+    text-decoration: underline;
+    display: inline-flex;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: rgb(20, 250, 78);
+}
+
+/*Mission*/
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 0.5%;
+    width: 60%;
+    height: 600px;
+    background-color: rgb(120, 66, 190);
+    margin-top: 100px;
+    border-radius: 30px;
+    overflow: auto;
+}
+
+.mission h1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 15%;
+    border-radius: 30px;
+    background-color: rgb(151, 115, 199);
+}
+
+.mission-box {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(120, 66, 190);
+    border-radius: 30px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    overflow: auto;
+}
+
+.text-mission {
+    background-color: rgb(45, 6, 95);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 30px;
+    height: 20%;
+    max-width: 1200px;
+    min-width: 1200px;
+    overflow: auto;
+}
+
+/*Main*/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 700px;
+    background-color: rgb(81, 41, 133);
+    margin-top: 100px;
+    border-radius: 30px;
+    row-gap: 6%;
+    overflow: auto;
+}
+
+main h1 {
+    position: sticky;
+    top: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 15%;
+    border-radius: 30px;
+    background-color: rgb(151, 115, 199);
+    z-index: 9;
+}
+
+.products-box {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+    column-gap: 60px;
+    background-color: transparent;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    overflow: auto;
+}
+
+.products {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(113, 50, 196);
+    border-radius: 30px;
+    height: 100%;
+    width: 25%;
+    max-width: 400px;
+    min-width: 400px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+
+
+/*Employes*/
+.employes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 500px;
+    background-color: rgb(51, 14, 100);
+    margin-top: 100px;
+    border-radius: 30px;
+    margin-bottom: 100px;
+    row-gap: 20px;
+    overflow: auto;
+}
+
+.employes h1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 15%;
+    border-radius: 30px;
+    background-color: rgb(151, 115, 199);
+}
+
+.employes-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 70%;
+    width: 90%;
+    background-color: transparent;
+    border-radius: 30px;
+    column-gap: 60px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    overflow: auto;
+}
+
+.text-employes {
+    max-width: 300px;
+    min-width: 300px;
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    background-color: rgb(142, 85, 217);
+    border-radius: 30px;
+}
+
+#employe-1 {
+    background-image: url("https://images.unsplash.com/photo-1585842378054-ee2e52f94ba2?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#employe-2 {
+    background-image: url("https://images.unsplash.com/photo-1484863137850-59afcfe05386?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#employe-3 {
+    background-image: url("https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#employe-4 {
+    background-image: url("https://images.unsplash.com/photo-1527613426441-4da17471b66d?q=80&w=2652&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-employes p,
+.text-employes h2 {
+    background-color: rgb(151, 115, 199);
+    width: 100%;
+    text-align: center;
+}
+
+.text-employes p {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(99, 82, 121);
+    position: static;
+    bottom: 0px;
+    font-size: 1.5rem;
+}
